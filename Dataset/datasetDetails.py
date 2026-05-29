@@ -1,0 +1,26 @@
+datasetDetailsDict = {
+    "adni116": {
+        "datasetName": "adni116",
+        "targetTask": "disease",
+        "nOfClasses": 2,
+        "dynamicLength": 60,
+        "foldCount": 5,
+        "atlas": "AAL116",
+        "nOfEpochs": 50,
+        "batchSize": 16,
+        "splitFile": r"./Dataset/Splits/adni116_5fold_seed42.npz",
+        "splitSeed": 42,
+    },
+    "abide116": {
+        "datasetName": "abide116",
+        "targetTask": "disease",
+        "nOfClasses": 2,
+        "dynamicLength": 60,
+        "foldCount": 5,
+        "atlas": "AAL116",
+        "nOfEpochs": 50,
+        "batchSize": 16,
+        "splitFile": r"./Dataset/Splits/abide116_5fold_seed42.npz",
+        "splitSeed": 42,
+    },
+}
